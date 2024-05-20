@@ -60,7 +60,7 @@ const RightCollectivables = () => {
       <p className="w-full font-semibold text-[16px] text-white pl-[20px] ml-[10px] ">
         Artist Lineup
       </p>
-      <div className="p-4 flex gap-2">
+      <div className="p-4 flex flex-wrap gap-2">
         {[0, 1, 3, 4].map((item , idx) => (
           <CollectivableCard key={idx} />
         ))}
