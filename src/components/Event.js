@@ -6,6 +6,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Image from "next/image";
 
 const Event = () => {
   const book_2 = useRef();
@@ -42,34 +43,7 @@ const Event = () => {
         </div>
         <p>Astri</p>
         <div className="hidden sm:grid z-10 w-full overflow-hidden lg:max-w-none sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-4">
-          {/* {props?.data.length > 4 && (
-          <div className="z-30 absolute mt-[200px]  item-center left-[30px]  hidden  sm:flex justify-between         px-4   sm:items-center ">
-            <button
-              onClick={() => {
-                handlePrevClick_2();
-              }}
-              type="button"
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              class="inline-block rounded-full bg-primary p-2  uppercase bg-white leading-normal  opacity-50  text-etGray shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:opacity-70 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 19.5L8.25 12l7.5-7.5"
-                />
-              </svg>
-            </button>
-          </div>
-        )} */}
+         
           {data?.length > 1 ? (
             <Slider
               ref={book_2}
@@ -96,17 +70,9 @@ const Event = () => {
                         className="rounded-t-lg h-[500px] w-full border-b  "
                       />
                       <div className="absolute  top-2 right-2">
-                        {/*  <Image
-                          src="/instaIcon.webp"
-                          width={30}
-                          height={30}
-                          alt="article image"
-                          loading="lazy"
-                        /> */}
+                      
                       </div>
-                      {/*  <div className="p-3  w-[full]  rounded-b-lg h-[100px]">
-                        {item.Title}
-                      </div> */}
+                     
                     </div>
                   </div>
                 );
@@ -160,10 +126,7 @@ const Event = () => {
         </div>
       </div>
       <div className=" w-[35%] bg-[#15181b] h-[1200px]">
-        {/* <p className='w-full font-bold text-[25px] text-white pl-[20px] ml-[10px]'>Explore your First Collectible</p>
-<p className='w-full font-bold text-[25px] text-white pl-[20px] ml-[10px] '> Collectible</p>
-<p className='w-full font-bold text-[40px] text-white pl-[20px] ml-[10px] mt-[30px]'>Meta </p>
-<p className=' w-full font-bold text-[40px] text-white pl-[20px] ml-[10px]'>Live</p> */}
+      
 
         <p className="w-full font-bold text-[25px] text-white pl-[20px] ml-[10px] mt-10 ">
           Explore your first
