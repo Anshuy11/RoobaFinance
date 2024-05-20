@@ -149,7 +149,7 @@ const Second = () => {
           <div className="relative pb-4">
             <div className="  mt-2 flex justify-end mr-5 ">
               <div className="bg-gray-950 text-sm  rounded-full text-white flex w-max p-2">
-                <Link href={"/second-page"}>
+                <Link href={"/"}>
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

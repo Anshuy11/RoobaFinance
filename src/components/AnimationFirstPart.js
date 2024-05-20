@@ -128,7 +128,7 @@ const AnimationFirstPade = () => {
 
         <div className=" container z-50 relative h-full ">
           <div className="bg-black bg-opacity-60 flex sticky  top-[100px] rounded-xl p-2 m-2">
-            <Link target="_self" href={"/"} className="hover:text-gray-700">
+            <Link target="_self"     href={"/second-page"} className="hover:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -264,7 +264,7 @@ const AnimationFirstPade = () => {
 
         <div className=" container z-10 sticky top-[100px] ">
           <div className="bg-black bg-opacity-60 flex rounded-xl p-2 m-2">
-            <Link target="_self" href={"/"} className="hover:text-gray-700">
+            <Link target="_self"     href={"/second-page"} className="hover:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

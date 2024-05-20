@@ -20,7 +20,7 @@ const RightCollectivables = () => {
       <p className=" flex w-full font-bold mt-6 text-[25px] text-white  ml-[10px]">
         <span className="pl-6 ">Live in Astrix</span>
       </p>
-      <p className=" font-semibold text-[16px] text-white p-[20px] ml-[10px] w-2/3 leading-6 ">
+      <p className=" font-semibold text-[16px] text-white p-[20px] ml-[10px] md:w-2/3 leading-6 ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
